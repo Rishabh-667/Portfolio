@@ -1,0 +1,99 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    margin: 50px 0;
+}
+
+/* Styled Heading */
+#my-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00bcd4;  /* Cyan Color */
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 10px rgba(0, 188, 212, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Heading */
+#my-heading:hover {
+    transform: scale(1.1);
+}
+
+/* Subheading */
+h2 {
+    font-size: 1.5rem;
+    color: #aaa;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    max-width: 700px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect for Sections */
+section:hover {
+    transform: translateY(-5px);
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff9800;
+}
+
+/* Contact Section */
+section p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}
